@@ -1,0 +1,220 @@
+.join {
+}
+.join-body {
+  margin: 0px auto;
+  width: 100%;
+  border-radius: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 90px 110px 84px;
+}
+.join-tittle {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hr-img-wrapper {
+  width: 414px;
+  height: 1px;
+  margin: 30px 0px 21px;
+  position: relative;
+}
+.join-subtitle {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 65px;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 36px;
+  & .join-input:first-child {
+    margin-right: 10px;
+  }
+}
+.join-input {
+  width: 100%;
+  height: 72px;
+  border-radius: 40px;
+  background: transparent;
+  padding: 0px 42px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 8px white;
+  }
+  &::placeholder {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.textarea-container {
+  width: 100%;
+  height: 210px;
+  margin-bottom: 51px;
+}
+.textarea {
+  padding: 27px 42px;
+  width: 100%;
+  height: 210px;
+  resize: none;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 8px white;
+  }
+
+  &::placeholder {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.button-filled {
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 1400px) {
+  .join-body {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .join-tittle {
+    font-size: 30px;
+  }
+  .hr-img-wrapper {
+    width: 100%;
+    height: 1px;
+    margin: 20px 0px 15px;
+    position: relative;
+  }
+  .join-subtitle {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .join-body {
+    border-radius: 50px;
+    padding: 40px 60px 34px;
+  }
+  .input-container {
+    margin-bottom: 20px;
+  }
+  .join-input {
+    height: 50px;
+    padding: 0px 32px;
+  }
+  .textarea-container {
+    width: 100%;
+    height: 180px;
+    /* margin-bottom: 30px; */
+  }
+}
+@media (max-width: 780px) {
+  .textarea {
+    padding: 20px 30px;
+  }
+  .join-tittle {
+    font-size: 25px;
+  }
+  .hr-img-wrapper {
+    margin: 20px 0px 15px;
+  }
+  .join-subtitle {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .join-body {
+    border-radius: 50px;
+    padding: 40px 60px 34px;
+  }
+  .input-container {
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    & .join-input:first-child {
+      margin: 0px 0px 20px 0px;
+    }
+  }
+
+  .textarea-container {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  .join-body {
+    border-radius: 50px;
+    padding: 30px 40px 34px;
+  }
+}
+@media (max-width: 530px) {
+  .join-body {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .join-tittle {
+    font-size: 20px;
+  }
+  .hr-img-wrapper {
+    margin: 15px 0px 15px;
+  }
+  .join-subtitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .join-body {
+    border-radius: 50px;
+    padding: 20px 30px 24px;
+  }
+  .input-container {
+    margin-bottom: 15px;
+  }
+  .join-input {
+    padding: 0px 15px;
+  }
+  .textarea {
+    padding: 20px 15px;
+  }
+}

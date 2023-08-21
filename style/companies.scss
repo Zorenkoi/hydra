@@ -1,0 +1,41 @@
+.companies {
+  padding-bottom: 69px;
+}
+.companies-body {
+  width: 100%;
+  position: relative;
+  padding: 0px 40px;
+}
+.companies-container {
+  overflow: hidden;
+  position: relative;
+}
+.companies-card-wrapper {
+  height: 282px;
+}
+.companies-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0px 30px;
+}
+.company-img-wrapper {
+}
+
+.companies-prev {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%) rotate(90deg);
+}
+.companies-next {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%) rotate(-90deg);
+}

@@ -1,0 +1,131 @@
+.technologies {
+  padding: 0 0 45px;
+}
+.technologies-body {
+  position: relative;
+  width: 100%;
+  height: 303px;
+  border-radius: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.technologies-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 160px;
+  overflow: hidden;
+}
+.technologies-img {
+  z-index: -1;
+}
+.technologies-header {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+.technologies-subheader {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.technologies-button {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 980px) {
+  .technologies-body {
+    height: 250px;
+    border-radius: 125px;
+  }
+  .technologies-background {
+    border-radius: 125px;
+  }
+  .technologies-header {
+    font-size: 30px;
+    margin-bottom: 11px;
+  }
+  .technologies-subheader {
+    font-size: 30px;
+  }
+  .technologies-button {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 790px) {
+  .technologies-body {
+    height: 200px;
+    border-radius: 100px;
+  }
+  .technologies-background {
+    border-radius: 100px;
+  }
+  .technologies-header {
+    font-size: 30px;
+    margin-bottom: 11px;
+  }
+  .technologies-subheader {
+    font-size: 30px;
+  }
+  .technologies-button {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+  }
+}
+@media (max-width: 650px) {
+  .technologies-body {
+    height: 150px;
+    border-radius: 75px;
+  }
+  .technologies-background {
+    border-radius: 75px;
+  }
+  .technologies-header {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .technologies-subheader {
+    font-size: 25px;
+  }
+  .technologies-button {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 510px) {
+  .technologies-header {
+    font-size: 20px;
+    margin-bottom: 11px;
+  }
+}
+@media (max-width: 420px) {
+  .technologies-header {
+    font-size: 15px;
+    margin-bottom: 11px;
+  }
+  .technologies-subheader {
+    font-size: 23px;
+  }
+}
